@@ -1,0 +1,4 @@
+nl/arothuis/antlr4calculator/core/calculator/MathExamples.class
+nl/arothuis/antlr4calculator/core/calculator/ListenerBasedCalculatorTest.class
+nl/arothuis/antlr4calculator/infrastructure/driver/ReplTest.class
+nl/arothuis/antlr4calculator/core/calculator/VisitorBasedCalculatorTest.class

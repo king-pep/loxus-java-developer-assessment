@@ -1,0 +1,6 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+antlr4-calculator,nl.arothuis.antlr4calculator.infrastructure.driver,Repl,0,58,0,4,0,19,0,6,0,4
+antlr4-calculator,nl.arothuis.antlr4calculator.core.calculator,VisitorBasedCalculator,3,0,0,0,1,0,1,0,1,0
+antlr4-calculator,nl.arothuis.antlr4calculator.core.calculator,ListenerBasedCalculator,3,0,0,0,1,0,1,0,1,0
+antlr4-calculator,nl.arothuis.antlr4calculator.core.parser,CalculationVisitor,3,0,0,0,1,0,1,0,1,0
+antlr4-calculator,nl.arothuis.antlr4calculator.core.parser,CalculationListener,3,0,0,0,1,0,1,0,1,0

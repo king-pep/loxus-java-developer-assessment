@@ -1,0 +1,14 @@
+/home/kingether/loxus-assessment/src/main/java/nl/arothuis/antlr4calculator/core/calculator/Calculator.java
+/home/kingether/loxus-assessment/target/generated-sources/antlr4/com.loxus.assessment.core.parser/CalculatorParser.java
+/home/kingether/loxus-assessment/target/generated-sources/antlr4/com.loxus.assessment.core.parser/CalculatorVisitor.java
+/home/kingether/loxus-assessment/src/main/java/nl/arothuis/antlr4calculator/VisitorMain.java
+/home/kingether/loxus-assessment/src/main/java/nl/arothuis/antlr4calculator/core/parser/CalculationVisitor.java
+/home/kingether/loxus-assessment/src/main/java/nl/arothuis/antlr4calculator/ListenerMain.java
+/home/kingether/loxus-assessment/target/generated-sources/antlr4/com.loxus.assessment.core.parser/CalculatorBaseVisitor.java
+/home/kingether/loxus-assessment/target/generated-sources/antlr4/com.loxus.assessment.core.parser/CalculatorBaseListener.java
+/home/kingether/loxus-assessment/target/generated-sources/antlr4/com.loxus.assessment.core.parser/CalculatorLexer.java
+/home/kingether/loxus-assessment/src/main/java/nl/arothuis/antlr4calculator/core/calculator/VisitorBasedCalculator.java
+/home/kingether/loxus-assessment/src/main/java/nl/arothuis/antlr4calculator/core/calculator/ListenerBasedCalculator.java
+/home/kingether/loxus-assessment/src/main/java/nl/arothuis/antlr4calculator/core/parser/CalculationListener.java
+/home/kingether/loxus-assessment/src/main/java/nl/arothuis/antlr4calculator/infrastructure/driver/Repl.java
+/home/kingether/loxus-assessment/target/generated-sources/antlr4/com.loxus.assessment.core.parser/CalculatorListener.java

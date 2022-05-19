@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CalculationVisitor.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">antlr4-calculator</a> &gt; <a href="index.source.html" class="el_package">nl.arothuis.antlr4calculator.core.parser</a> &gt; <span class="el_source">CalculationVisitor.java</span></div><h1>CalculationVisitor.java</h1><pre class="source lang-java linenums">package nl.arothuis.antlr4calculator.core.parser;
+
+<span class="nc" id="L3">public class CalculationVisitor{ // extends CalculatorBaseVisitor&lt;Double&gt;</span>
+//    /**
+//     * Numbers are non-terminal.
+//     * Although less precise, a double makes it
+//     * easier to deal with division in this toy application.
+//     *
+//     * @return Double
+//     */
+//    @Override
+//    public Double visitNumber(CalculatorParser.NumberContext ctx) {
+//        return Double.parseDouble(ctx.NUMBER().getText());
+//    }
+//
+//    /**
+//     * Parentheses are used to give precedence to
+//     * the expression around which they are wrapped.
+//     *
+//     * This precedence is caused elsewhere,
+//     * in the grammar, via the order in which
+//     * the rules are defined (ANTLR4).
+//     *
+//     * @return Double
+//     */
+//    @Override
+//    public Double visitParentheses(CalculatorParser.ParenthesesContext ctx) {
+//        return this.visit(ctx.inner);
+//    }
+//
+//    /**
+//     * @return Double
+//     */
+//    @Override
+//    public Double visitPower(CalculatorParser.PowerContext ctx) {
+//        return Math.pow(this.visit(ctx.left), this.visit(ctx.right));
+//    }
+//
+//    @Override
+//    public Double visitMultiplicationOrDivision(CalculatorParser.MultiplicationOrDivisionContext ctx) {
+//        if (ctx.operator.getText().equals(&quot;*&quot;)) {
+//            return this.visit(ctx.left) * this.visit(ctx.right);
+//        }
+//
+//        return this.visit(ctx.left) / this.visit(ctx.right);
+//    }
+//
+//    @Override
+//    public Double visitAdditionOrSubtraction(CalculatorParser.AdditionOrSubtractionContext ctx) {
+//        if (ctx.operator.getText().equals(&quot;+&quot;)) {
+//            return this.visit(ctx.left) + this.visit(ctx.right);
+//        }
+//
+//        return this.visit(ctx.left) - this.visit(ctx.right);
+//    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

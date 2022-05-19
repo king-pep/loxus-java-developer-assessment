@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CalculationListener.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">antlr4-calculator</a> &gt; <a href="index.source.html" class="el_package">nl.arothuis.antlr4calculator.core.parser</a> &gt; <span class="el_source">CalculationListener.java</span></div><h1>CalculationListener.java</h1><pre class="source lang-java linenums">package nl.arothuis.antlr4calculator.core.parser;
+
+import java.util.Stack;
+
+<span class="nc" id="L5">public class CalculationListener { // extends CalculatorBaseListener</span>
+//    /**
+//     * A stack is used to track what numbers
+//     * we have seen last. This is our only
+//     * means of communicating values.
+//     *
+//     * The right number in
+//     * an operation is always the last one seen or
+//     * calculated for that operation. Because a stack
+//     * works via Last In First Out,
+//     * the right number should be &quot;popped&quot; off first.
+//     */
+//    private final Stack&lt;Double&gt; stack = new Stack&lt;&gt;();
+//
+//    @Override
+//    public void exitNumber(CalculatorParser.NumberContext ctx) {
+//        Double number = Double.parseDouble(ctx.NUMBER().getText());
+//        this.stack.push(number);
+//    }
+//
+//    @Override
+//    public void exitPower(CalculatorParser.PowerContext ctx) {
+//        Double right = this.stack.pop();
+//        Double left = this.stack.pop();
+//
+//        this.stack.push(Math.pow(left, right));
+//    }
+//
+//    @Override
+//    public void exitMultiplicationOrDivision(CalculatorParser.MultiplicationOrDivisionContext ctx) {
+//        Double right = this.stack.pop();
+//        Double left = this.stack.pop();
+//
+//        if (ctx.operator.getText().equals(&quot;*&quot;)) {
+//            this.stack.push(left * right);
+//        } else {
+//            this.stack.push(left / right);
+//        }
+//    }
+//
+//    @Override
+//    public void exitAdditionOrSubtraction(CalculatorParser.AdditionOrSubtractionContext ctx) {
+//        Double right = this.stack.pop();
+//        Double left = this.stack.pop();
+//
+//        if (ctx.operator.getText().equals(&quot;+&quot;)) {
+//            this.stack.push(left + right);
+//        } else {
+//            this.stack.push(left - right);
+//        }
+//    }
+//
+//    /**
+//     * The last value on the stack is the result of all
+//     * applied calculations.
+//     *
+//     * @return Double
+//     */
+//    public Double getResult() {
+//        return this.stack.pop();
+//    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>
