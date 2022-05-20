@@ -9,7 +9,7 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
-    <groupId>nl.arothuis</groupId>
+    <groupId>com.loxus.assessment</groupId>
     <artifactId>antlr4-calculator</artifactId>
     <version>1.0-SNAPSHOT</version>
 
